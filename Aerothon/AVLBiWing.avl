@@ -1,0 +1,103 @@
+ACBiWing
+0.0				| Mach
+0 0 0.0			| iYsym  iZsym  Zsym
+901.950367223 8.40505279353 60.0			| Sref   Cref   Bref
+0.0 0.0 0.0			| Xref   Yref   Zref
+0.0				| CDp  (optional)
+#==============================================================
+#
+SURFACE
+LowerWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+-2.10126319838 0.0 0.0   8.40505279353  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223\S1223.dat"
+#-----------------------
+SECTION
+-3.46593282201 18.0 0.0   7.56454751418  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223\S1223.dat"
+#-----------------------
+SECTION
+-4.13756940861 30.0 0.0   6.05163801134  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223\S1223.dat"
+#==============================================================
+#
+SURFACE
+UpperWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+2
+#-----------------------
+SECTION
+-5.66619573535 0.0 12.0   7.51838892297  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223\S1223.dat"
+#-----------------------
+SECTION
+-2.4923100826 18.0 12.0   7.51838892297  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223\S1223.dat"
+#-----------------------
+SECTION
+-0.376386314098 30.0 12.0   7.51838892297  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\S1223\S1223.dat"
+#==============================================================
+#
+SURFACE
+End Plate
+10  1.0  20  -1.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+3
+#-----------------------
+SECTION
+-4.13756940861 30.0 0.0   6.05163801134  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-3.3825923854 28.6143593539 2.4   4.84131040907  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-2.25012685057 34.8497422612 6.0   1.21032760227  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-1.11766131575 36.9282032303 9.6   4.84131040907  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"
+#-----------------------
+SECTION
+-0.362684292534 30.0 12.0   7.51838892297  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+"C:\eclipse\workspace\AircraftDesign\trunk\Airfoils\NACA0012\NACA0012.dat"

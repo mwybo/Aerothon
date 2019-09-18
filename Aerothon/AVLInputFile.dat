@@ -1,0 +1,102 @@
+ACTailAircraft
+0.0			| Mach
+0 0 0.0		| iYsym  iZsym  Zsym
+988.993652769 8.52165018814 120.0		| Sref   Cref   Bref
+15.0 0.125975962071 22.8960333288		| Xref   Yref   Zref
+0.0			| CDp  (optional)
+#==============================================================
+#
+SURFACE
+ACHorizontalTailSurf
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.580778560522
+
+INDEX
+2
+#-----------------------
+SECTION
+72.070504733 0.0 10.0   7.6980035892  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0012/NACA0012.dat
+CONTROL
+Elevator  1.0  0.3  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+74.7648059893 8.66025403784 10.0   3.8490017946  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0012/NACA0012.dat
+CONTROL
+Elevator  1.0  0.3  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#==============================================================
+#
+SURFACE
+ACMainWing
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+YDUPLICATE
+0.0
+
+ANGLE
+0.0
+
+INDEX
+1
+#-----------------------
+SECTION
+8.65786266694 0.0 10.0   9.76494522876  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0015/NACA0015.dat
+#-----------------------
+SECTION
+8.65786266694 18.0 10.0   9.76494522876  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0015/NACA0015.dat
+#-----------------------
+SECTION
+8.65786266694 22.8 10.0633987116   9.29622785778  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0015/NACA0015.dat
+CONTROL
+Aileron  1.0  0.25  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+8.65786266694 48.0 10.3962419475   6.83546166013  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0015/NACA0015.dat
+CONTROL
+Aileron  1.0  0.25  0. 0. 0.  -1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+8.65786266694 60.0 10.6736113107   4.78482316209  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/S1223/S1223.dat
+#==============================================================
+#
+SURFACE
+ACTailSurf
+10  1.0  20  -2.0  |  Nchord   Cspace   Nspan  Sspace
+
+ANGLE
+0.0
+
+INDEX
+3
+#-----------------------
+SECTION
+64.6682092024 0.0 10.4051758466   7.72583855092  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0012/NACA0012.dat
+CONTROL
+Rudder  1.0  0.4  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
+#-----------------------
+SECTION
+66.0588601416 0.0 20.9123162759   5.40808698564  0 0 0 | Xle Yle Zle   Chord   Ainc   [ Nspan Sspace ]
+AFIL
+../Airfoils/NACA0012/NACA0012.dat
+CONTROL
+Rudder  1.0  0.4  0. 0. 0.  1.0 | Name  gain  Xhinge  XYZhvec  SgnDup
